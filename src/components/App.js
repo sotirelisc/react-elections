@@ -1,10 +1,11 @@
 import React from 'react';
+import VotingForm from './VotingForm';
 
 class App extends React.Component {
   render() {
     return (
-      <div>
-        Hey
+      <div className="ui container">
+        <VotingForm />
       </div>
     );
   }
